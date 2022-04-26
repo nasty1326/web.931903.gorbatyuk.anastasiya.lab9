@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="style.css" rel="stylesheet">
+    <title>Лабораторная 9</title>
+</head>
+
+<body>
+<div id="main">
+  <input type="text" id="input_k1" class="inp"></input>
+  <input type="text" id="input_k2" class="inp"></input>
+    <table>
+      <tr>
+         <td onClick="numbers(7)">7</td>
+         <td onClick="numbers(8)">8</td>
+         <td onClick="numbers(9)">9</td>
+         <td onClick="symbol(47)">/</td>
+         <td onClick="C()">C</td>
+      </tr>
+      <tr>
+        <td onClick="numbers(4)">4</td>
+        <td onClick="numbers(5)">5</td>
+        <td onClick="numbers(6)">6</td>
+        <td onClick="symbol(42)">*</td>
+        <td onClick="returne()">←</td>
+      </tr>
+      <tr>
+        <td onClick="numbers(1)">1</td>
+        <td onClick="numbers(2)">2</td>
+        <td onClick="numbers(3)">3</td>
+        <td onClick="symbol(45)">-</td>
+        <td onClick="equally()" rowspan="2">=</td>
+      </tr>
+        <tr>
+        <td onClick="numbers(0)" colspan="2">0</td>
+        <td onClick="symbol(46)">.</td>
+        <td onClick="symbol(43)">+</td>
+      </tr>
+      </table>
+          
+</div>
+
+  <script src="lab9.js"></script>
+  
+</body>
+</html>
